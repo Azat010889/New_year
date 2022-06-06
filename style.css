@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Comforter&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Poiret+One&display=swap');
+
+body{
+    background-color: #1A5B35;
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+/*height/width = padding + margin + border + height/width*/
+
+
+.wrapper{
+    width: 662px;
+    /*border: 1px solid red;*/
+}
+
+.content{
+    text-align: center;
+    margin-top: 99px;
+}
+h1{
+    font-family: ComForter, sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 115px;
+    color: #CEB076;
+    margin: 0;
+}
+
+.content p{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+.sign{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.sign img{
+    position: relative;
+    top: -100px;
+    right: -120px;
+}
+.logo{
+    text-align: center;
+}
+ .first{
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+ .third{
+     position: absolute;
+     left: 0;
+     bottom: 0
+ }
+
+ .muzik{
+     position: absolute;
+     left: 0;
+     bottom: 75px;
+ }
+ .second{
+     position: absolute;
+     right: 0;
+     top: 0;
+     background-color: ;
+ }
+
+@media (max-width: 576px){
+
+    .content{
+        /*height: 456px;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        /*width: 328px;*/
+    }
+    h1{
+        font-size: 52px;
+        margin-top: 96px;
+    }
+    .first{
+        height: 241px;
+        width: 144px;
+    }
+    .second{
+        display: none;
+    }
+    .third{
+        display: none;
+    }
+    .muzik{
+        position: absolute;
+        top: 5%;
+        left: 85%;
+    }
+    .sigm img{
+        /*margin-top: 20px;*/
+    }
+}
+

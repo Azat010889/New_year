@@ -73,6 +73,12 @@ h1{
      top: 0;
      background-color: ;
  }
+ .song{
+     position: absolute;
+     left: 5px;
+     bottom: 125px;
+     color:#ffffff;
+ }
 
 @media (max-width: 576px){
 
@@ -117,6 +123,11 @@ h1{
     .logo{
         padding-bottom: 85px;
         margin-bottom: 85px;
+    }
+    .song{
+        position: absolute;
+        top: 2%;
+        left: 75%;
     }
 }
 

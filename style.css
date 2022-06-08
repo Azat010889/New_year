@@ -83,7 +83,11 @@ h1{
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        /*width: 328px;*/
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        /*padding-left: 0;*/
+        /*padding-right: 0;*/
     }
     h1{
         font-size: 52px;
@@ -101,11 +105,14 @@ h1{
     }
     .muzik{
         position: absolute;
-        top: 5%;
-        left: 85%;
+        top: 10%;
+        left: 75%;
     }
-    .sigm img{
+    .sign img{
         /*margin-top: 20px;*/
+    }
+    .logo{
+        /*margin-top: 100px;*/
     }
 }
 
